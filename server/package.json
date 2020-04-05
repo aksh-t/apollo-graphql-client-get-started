@@ -1,13 +1,21 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
+  "name": "get-started-coinbase-server",
+  "description": "From the \"Get started\" section of the Apollo Client docs.",
   "dependencies": {
     "apollo-datasource-rest": "^0.8.0",
     "apollo-server": "^2.11.0",
     "graphql": "^15.0.0",
     "lodash": "^4.17.15",
     "node-fetch": "^2.6.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js localhost 4000"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/graphql": "14.0.1",
+    "nodemon": "1.18.4"
   }
 }
