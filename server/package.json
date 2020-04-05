@@ -2,5 +2,12 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.8.0",
+    "apollo-server": "^2.11.0",
+    "graphql": "^15.0.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  }
 }
